@@ -32,6 +32,10 @@
         }
       },
       "globus": {
+        "application": {
+          "client_id": "94ae0756-58a2-4c56-8463-9cd3f4668ee8",
+          "redirect_uri": "https://joe.bottigliero.com/compute-portal/authenticate"
+        },
         "search": {
           "index": "78b92aca-e361-4307-8f66-bc448f20e2c3",
           "facets": [
