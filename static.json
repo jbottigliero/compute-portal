@@ -29,7 +29,8 @@
       "globus": {
         "application": {
           "client_id": "94ae0756-58a2-4c56-8463-9cd3f4668ee8",
-          "redirect_uri": "https://joe.bottigliero.com/compute-portal/authenticate"
+          "redirect_uri": "https://joe.bottigliero.com/compute-portal/authenticate",
+          "scopes": ["https://auth.globus.org/scopes/facd7ccc-c5f4-42aa-916b-a0e270e2c2a9/all"]
         },
         "search": {
           "index": "91ca90a8-5c9c-4f34-bc8b-77ae8f402ce2",
