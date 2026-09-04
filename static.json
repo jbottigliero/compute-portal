@@ -8,25 +8,20 @@
     "version": "1.0.0",
     "attributes": {
       "metadata": {
-        "title": "Search | Globus Search Portal"
+        "title": "Joe's Compute Portal"
       },
       "content": {
-        "headline": "Globus Search Portal"
+        "headline": "Joe's Compute Portal"
       },
       "features": {
         "transfer": false
       },
       "components": {
         "Result": {
-          "heading": "entries[0].content.name",
           "fields": [
             {
               "label": "Tags",
               "property": "entries[0].content.tags"
-            },
-            {
-              "label": "Region",
-              "property": "entries[0].content.region"
             }
           ]
         }
@@ -37,17 +32,11 @@
           "redirect_uri": "https://joe.bottigliero.com/compute-portal/authenticate"
         },
         "search": {
-          "index": "78b92aca-e361-4307-8f66-bc448f20e2c3",
+          "index": "91ca90a8-5c9c-4f34-bc8b-77ae8f402ce2",
           "facets": [
             {
               "name": "Tags",
               "field_name": "tags",
-              "type": "terms",
-              "size": 10
-            },
-            {
-              "name": "Region",
-              "field_name": "region",
               "type": "terms",
               "size": 10
             }
